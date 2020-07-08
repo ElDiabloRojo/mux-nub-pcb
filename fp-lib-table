@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "muxnub")(type "KiCad")(uri "${KIPRJMOD}/muxnub.pretty")(options "")(descr ""))
+  (lib (name "mux-nub-pcb")(type "KiCad")(uri "${KIPRJMOD}/muxnub.pretty/mux-nub-pcb.pretty")(options "")(descr ""))
+  (lib (name "CD74HC4051E")(type "KiCad")(uri "/Users/samholden/Downloads/CD74HC4051E")(options "")(descr ""))
+)

@@ -8,7 +8,7 @@
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
-        "copper_text_upright": true,
+        "copper_text_upright": false,
         "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 1,
         "dimension_units": 0,
@@ -18,12 +18,12 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
-        "other_text_upright": true,
+        "other_text_upright": false,
         "pads": {
           "drill": 0.762,
           "height": 1.524,
@@ -34,7 +34,7 @@
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.15,
-        "silk_text_upright": true,
+        "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
           "min_clearance": 0.508
@@ -83,8 +83,6 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
@@ -98,7 +96,7 @@
         "min_track_width": 0.19999999999999998,
         "min_via_annulus": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.049999999999999996,
+        "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": 0.0
@@ -119,183 +117,12 @@
   "cvpcb": {
     "equivalence_files": []
   },
-  "erc": {
-    "meta": {
-      "version": 0
-    },
-    "pin_map": [
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        2,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        1,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ]
-    ],
-    "rule_severities": {
-      "bus_definition_conflict": "error",
-      "bus_label_syntax": "error",
-      "bus_to_bus_conflict": "error",
-      "bus_to_net_conflict": "error",
-      "different_unit_footprint": "error",
-      "different_unit_net": "error",
-      "duplicate_sheet_names": "error",
-      "global_label_dangling": "error",
-      "hier_label_mismatch": "error",
-      "label_dangling": "error",
-      "multiple_net_names": "error",
-      "net_not_bus_member": "error",
-      "no_connect_connected": "error",
-      "no_connect_dangling": "error",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "similar_labels": "error",
-      "unresolved_variable": "error"
-    }
-  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mux-control.kicad_pro",
+    "filename": "_autosave-mux-control.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -343,7 +170,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "mux-control.net",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "",
       "vmrl": ""
@@ -351,33 +178,9 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "drawing": {
-      "default_bus_thickness": 12.0,
-      "default_junction_size": 12.0,
-      "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
-      "default_wire_thickness": 6.0,
-      "field_names": [],
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.3
-    },
     "legacy_lib_dir": "",
-    "legacy_lib_list": [],
-    "meta": {
-      "version": 0
-    },
-    "net_format_name": "Pcbnew",
-    "page_layout_descr_file": "",
-    "plot_directory": "",
-    "spice_adjust_passive_values": false,
-    "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "legacy_lib_list": []
   },
-  "sheets": [
-    [
-      "d4a63b46-786e-4a0f-a241-9ec37b6529ed",
-      ""
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }

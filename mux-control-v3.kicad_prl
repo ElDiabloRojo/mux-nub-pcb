@@ -31,12 +31,15 @@
       28,
       29,
       30,
-      31
+      31,
+      32,
+      33,
+      34
     ],
-    "visible_layers": "7ffff_ffffffff"
+    "visible_layers": "7ffef_ffffffff"
   },
   "meta": {
-    "filename": "mux-control.kicad_prl",
+    "filename": "mux-control-v3.kicad_prl",
     "version": 1
   }
 }
